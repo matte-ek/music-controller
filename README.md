@@ -16,3 +16,7 @@ You'll need `node` and `npm` first.
 * You should be able to just run it via `npm start`
 
 As for further packaging the application, you can probably follow the guide [here.](https://www.electronjs.org/docs/latest/tutorial/quick-start#package-and-distribute-your-application)
+
+## Usage
+
+Should just work out of the box, you can tweak playerctl's command line arguments in the `main.js` file, for example excluding your browser via `-i chrome`.
