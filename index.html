@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Music Controller</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />  </head>
+  <body>
+    <div class="banner">
+        <div class="blur" id="album-art-blur"></div>
+        <div class="album-art" id="album-art"></div>
+        <div class="meta-info">
+            <span class="meta-title" id="title"></span>
+            <span class="meta-artist" id="artist"></span>
+            <div class="progress">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <div class="media-controls">
+                <button class="button" onclick="previousTrack()"><span class="material-symbols-outlined button-icon" style="font-size: 2.5vw">skip_previous</span></button>
+                <button class="button" onclick="playPause()"><span class="material-symbols-outlined button-icon" style="font-size: 2.5vw" id="play-pause-icon">pause</span></button>
+                <button class="button" onclick="nextTrack()"><span class="material-symbols-outlined button-icon" style="font-size: 2.5vw">skip_next</span></button>
+            </div>
+        </div>
+    </div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
